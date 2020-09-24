@@ -11,13 +11,13 @@ spec:
     openapi: "3.0.0"
     info:
       version: 1.0.0
-      title: Artist API
+      title: Playlist API
       license:
         name: MIT
     servers:
       - url: http://playlist.spotify.net/v1
     paths:
-      /artists:
+      /playlists:
         get:
           summary: List all playlist names
           description: Optional extended description in CommonMark or HTML.
